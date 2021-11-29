@@ -30,7 +30,7 @@ services:
     entrypoint: '/opt/teku/entrypoint.sh'
     environment:
       EP_ETH1_ENDPOINT: 'http://besu:8545'
-      EP_ETH1_PRIVATE_KEY: '8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63'
+      EP_ETH1_PRIVATE_KEY: '<private key>'
       EP_DEPOSIT_CONTRACT_ADDRESS: '0xdddddddddddddddddddddddddddddddddddddddd'
       EP_KEYSTORE_VALIDATOR_PASSWORD: 'password'
       EP_KEYSTORE_WITHDRAW_PASSWORD: 'password'
